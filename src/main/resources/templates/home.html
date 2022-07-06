@@ -7,8 +7,20 @@
 </head>
 <body>
     <div class="header">
-        <img width="20px" height="20px" src="https://avt-29.foto.mail.ru/bk/x9054060616/_avatar180?">
-        <h1 th:text="${title}" class="header_text"></h1>
+        <div class="header_div_one">
+            <img width="20px" height="20px" src="https://avt-29.foto.mail.ru/bk/x9054060616/_avatar180?">
+            <h1 th:text="${title}" class="header_text_h1"></h1>
+        </div>
+        <div class="header_div_one_two">
+            <h2 th:text="${valueCount}+${value}" class="header_text_h2"></h2>
+        </div>
+    </div>
+    <div class="menu">
+        <nav>
+            <a class="link-menu" href="/">Home page</a>
+            <a class="link-menu" href="/do">ToDo list</a>
+            <a class="link-menu" href="#">Shopping list</a>
+        </nav>
     </div>
 </body>
 </html>

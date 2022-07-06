@@ -41,15 +41,39 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
     color: white;
     text-align: left;
+    font-family: 'Chelsea Market', cursive;
     font-weight: 800;
     font-size: 20px;
 
     padding: 10px 10px 10px 220px;
-    margin: 0px 0px 10px 0px;
 
     display: flex;
 }
 
-.header_text{
-    margin-left: 5px;
+.header_div_one{
+    display: flex;
+}
+
+.header_text_h1{
+    padding-left: 5px;
+}
+.header_text_h2 {
+    padding-right: 100px;
+    padding-left: 500px;
+}
+
+.menu{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 800;
+    margin-top: 30px;
+}
+.link-menu{
+    border: 2px solid black;
+    color: black;
+    margin: 0px 20px 0px 20px;
+    padding: 5px;
+}
+.link-menu:hover{
+    background-color: gray;
 }

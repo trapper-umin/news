@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <title th:text="${ToDo}"></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header_div_one">
+            <img width="20px" height="20px" src="https://avt-29.foto.mail.ru/bk/x9054060616/_avatar180?">
+            <h1 th:text="${ToDo}" class="header_text_h1"></h1>
+        </div>
+    </div>
+    <div>
+        <div class="menu">
+            <nav>
+                <a class="link-menu" href="/">Home page</a>
+                <a class="link-menu" href="/do">ToDo list</a>
+                <a class="link-menu" href="#">Shopping list</a>
+            </nav>
+        </div>
+    </div>
+</body>
+</html>
